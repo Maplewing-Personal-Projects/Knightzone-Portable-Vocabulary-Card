@@ -62,14 +62,14 @@ ul.category-list, ul.vocabulary-list {
     
 }
 
-    ul.category-list li, ul.vocabulary-list li {
+    ul.category-list li, ul.vocabulary-list li, #click_index2 {
         margin: 10px;
         padding: 10px;
         border: 1px solid white;
         width: 200px;
     }
 
-        ul.category-list li:active, ul.vocabulary-list li:active{
+        ul.category-list li:active, ul.vocabulary-list li:active, #click_index2:active{
             background: #8800ff;
         }
 
@@ -77,6 +77,19 @@ ul.category-list, ul.vocabulary-list {
     margin-top: 10px;
 }
 
-#addCategory, #categoryContent, #vocabularyContent, #addVocabularyPage {
+#addCategory, #categoryContent, #vocabularyContent, #addVocabularyPage, #about {
     display: none;
 }
+
+.card {
+    border-radius: 10px;
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 80%;
+}
+
+    .card #page-title3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+    }

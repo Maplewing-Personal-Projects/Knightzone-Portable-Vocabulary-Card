@@ -69,18 +69,26 @@ $(function () {
     });
 
     var allClose = function (callback) {
-        $('#addCategory').slideUp('slow', function () {
-            $('#addVocabularyPage').slideUp('slow', function () {
-                $('#vocabularyContent').slideUp('slow', function () {
-                    $('#categoryContent').slideUp('slow', function () {
-                        $('#index').slideUp('slow', function () {
-                            callback();
+        $('#about').slideUp('slow', function () {
+            $('#addCategory').slideUp('slow', function () {
+                $('#addVocabularyPage').slideUp('slow', function () {
+                    $('#vocabularyContent').slideUp('slow', function () {
+                        $('#categoryContent').slideUp('slow', function () {
+                            $('#index').slideUp('slow', function () {
+                                callback();
+                            });
                         });
                     });
                 });
             });
         });
     };
+
+    $('#programName').click(function () {
+        allClose(function () {
+            $('#about').slideDown('slow');
+        });
+    });
 
     $('#click_addCategory').click(function () {
         allClose(function () {
@@ -89,7 +97,7 @@ $(function () {
 
     });
 
-    $('#click_index, #click_index1').click(function () {
+    $('#click_index, #click_index1, #click_index2').click(function () {
         allClose(function () {
             $('#index').slideDown('slow');
         });

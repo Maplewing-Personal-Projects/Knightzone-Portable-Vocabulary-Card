@@ -144,6 +144,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Debit-Card.png" />
     <Content Include="Html\css\phone.css" />
     <Content Include="Html\index.html" />
     <Content Include="Html\js\controller.js" />
