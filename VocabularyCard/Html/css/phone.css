@@ -1,0 +1,82 @@
+﻿@media all and (orientation:portrait) {
+    @-ms-viewport {
+        width:320px;
+        user-zoom: fixed;
+        max-zoom: 1;
+        min-zoom: 1;
+    }
+}
+
+@media all and (orientation:landscape) {
+    @-ms-viewport {
+        width:480px;
+        user-zoom: fixed;
+        max-zoom: 1;
+        min-zoom: 1;
+    }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 11pt;
+    font-family: "Segoe WP";
+    letter-spacing: 0.02em;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.page-title {
+    font-size: 24pt;
+}
+
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+    ul.menu li {
+        float: left;
+        padding: 10px;
+        border: 1px solid white;
+        width: auto;
+        margin-right: 5px;
+    }
+
+        ul.menu li:active {
+            background: #8800ff;
+        }
+            
+
+ul.category-list, ul.vocabulary-list {
+    list-style-type: none;
+    padding-left: 0px;
+    clear: both;
+    
+}
+
+    ul.category-list li, ul.vocabulary-list li {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid white;
+        width: 200px;
+    }
+
+        ul.category-list li:active, ul.vocabulary-list li:active{
+            background: #8800ff;
+        }
+
+#content {
+    margin-top: 10px;
+}
+
+#addCategory, #categoryContent, #vocabularyContent, #addVocabularyPage {
+    display: none;
+}
