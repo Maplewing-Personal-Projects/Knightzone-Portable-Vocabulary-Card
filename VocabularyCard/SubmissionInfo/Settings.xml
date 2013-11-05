@@ -1,6 +1,6 @@
 <MarketplaceDetails>
   <SmallAppTile>Debit-Card.png</SmallAppTile>
   <ScreenShots>vocabulary01.png;vocabulary02.png;vocabulary03.png;vocabulary04.png;vocabulary05.png;vocabulary06.png;;;</ScreenShots>
-  <ScreenShotsWXGA>;;;;;;;;</ScreenShotsWXGA>
-  <ScreenShots720P>;;;;;;;;</ScreenShots720P>
+  <ScreenShotsWXGA>vocabulary01WXGA.png;vocabulary02WXGA.png;vocabulary03WXGA.png;vocabulary04WXGA.png;vocabulary05EXGA.png;vocabulary06WXGA.png;;;</ScreenShotsWXGA>
+  <ScreenShots720P>vocabulary01720.png;vocabulary02720.png;vocabulary03720.png;vocabulary04720.png;vocabulary05720.png;vocabulary06720.png;;;</ScreenShots720P>
 </MarketplaceDetails>
