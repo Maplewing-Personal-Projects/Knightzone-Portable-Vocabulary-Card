@@ -146,6 +146,11 @@
     </Content>
     <Content Include="Debit-Card.png" />
     <Content Include="Html\css\phone.css" />
+    <Content Include="Html\images\Add-New.png" />
+    <Content Include="Html\images\Arrowhead-Down-01.png" />
+    <Content Include="Html\images\Arrowhead-Down-02.png" />
+    <Content Include="Html\images\Previous.png" />
+    <Content Include="Html\images\PreviousClick.png" />
     <Content Include="Html\index.html" />
     <Content Include="Html\js\controller.js" />
     <Content Include="Html\js\jquery-1.10.2.min.js" />
