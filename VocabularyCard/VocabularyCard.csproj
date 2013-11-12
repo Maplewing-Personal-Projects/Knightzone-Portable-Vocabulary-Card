@@ -146,9 +146,16 @@
     </Content>
     <Content Include="Debit-Card.png" />
     <Content Include="Html\css\phone.css" />
-    <Content Include="Html\images\Add-New.png" />
     <Content Include="Html\images\Arrowhead-Down-01.png" />
     <Content Include="Html\images\Arrowhead-Down-02.png" />
+    <Content Include="Html\images\Data-Edit-Black-Click.png" />
+    <Content Include="Html\images\Data-Edit-Black.png" />
+    <Content Include="Html\images\Data-Edit-Click.png" />
+    <Content Include="Html\images\Data-Edit.png" />
+    <Content Include="Html\images\delete-Black.png" />
+    <Content Include="Html\images\delete-Black_Click.png" />
+    <Content Include="Html\images\delete.png" />
+    <Content Include="Html\images\delete_Click.png" />
     <Content Include="Html\images\Previous.png" />
     <Content Include="Html\images\PreviousClick.png" />
     <Content Include="Html\index.html" />
